@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\email_spam_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\email_spam_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\ml\\spamdetectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\ml\\spamdetectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\ml\\emailprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\ml\\emailprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|c:\\production_cmp\\production_cmp_sychronise_process\\backup_code\\email_spam_project\\email_spam_project\\ml\\emaildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A9082C-346B-35DB-B2BB-4A681705889B}|Email_Spam_Project\\Email_Spam_Project.csproj|solutionrelative:email_spam_project\\ml\\emaildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\appsettings.json",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\appsettings.json",
+              "RelativeToolTip": "Email_Spam_Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-21T09:25:33.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\Program.cs",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Program.cs",
+              "RelativeToolTip": "Email_Spam_Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T09:22:55.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Email_Spam_Project\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T09:22:28.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Email_Spam_Project\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T09:20:12.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Models\\Email.cs",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\Models\\Email.cs",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Models\\Email.cs",
+              "RelativeToolTip": "Email_Spam_Project\\Models\\Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T09:19:36.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Email_Spam_Project",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Email_Spam_Project.csproj",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\Email_Spam_Project.csproj",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\Email_Spam_Project.csproj",
+              "RelativeToolTip": "Email_Spam_Project\\Email_Spam_Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-21T09:18:57.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpamDetectionService.cs",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\ML\\SpamDetectionService.cs",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\ML\\SpamDetectionService.cs",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\ML\\SpamDetectionService.cs",
+              "RelativeToolTip": "Email_Spam_Project\\ML\\SpamDetectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T09:17:20.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailPrediction.cs",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\ML\\EmailPrediction.cs",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\ML\\EmailPrediction.cs",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\ML\\EmailPrediction.cs",
+              "RelativeToolTip": "Email_Spam_Project\\ML\\EmailPrediction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T09:16:11.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailData.cs",
+              "DocumentMoniker": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\ML\\EmailData.cs",
+              "RelativeDocumentMoniker": "Email_Spam_Project\\ML\\EmailData.cs",
+              "ToolTip": "C:\\Production_Cmp\\Production_Cmp_Sychronise_Process\\Backup_Code\\Email_Spam_Project\\Email_Spam_Project\\ML\\EmailData.cs",
+              "RelativeToolTip": "Email_Spam_Project\\ML\\EmailData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T11:21:21.516Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

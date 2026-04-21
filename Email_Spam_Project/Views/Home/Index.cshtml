@@ -1,0 +1,129 @@
+@{
+    ViewData["Title"] = "Email Spam Guard AI";
+}
+
+<div class="main-container">
+    <div class="hero-section">
+        <h1 class="hero-title">Email Spam Guard</h1>
+        <p class="hero-subtitle">Advanced machine learning powered spam detection system. Analyze any email content with precision.</p>
+    </div>
+
+    <div class="analyzer-card">
+        <div class="input-group">
+            <textarea id="emailInput" class="email-textarea" placeholder="Paste email content here to analyze..."></textarea>
+        </div>
+        
+        <button id="analyzeBtn" class="btn-analyze">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            Analyze Content
+        </button>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Training AI models and analyzing...</p>
+        </div>
+
+        <div id="resultSection" class="result-section">
+            <div id="badge" class="result-badge"></div>
+            <h3 id="resultTitle">Analysis Result</h3>
+            
+            <div class="probability-bar">
+                <div id="probFill" class="probability-fill"></div>
+            </div>
+
+            <div class="meta-info">
+                <span>Spam Probability</span>
+                <span id="probText">0%</span>
+            </div>
+            
+            <div style="margin-top: 1rem; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 0.5rem; font-size: 0.85rem;">
+                <p><strong>Verdict:</strong> <span id="verdictDetail"></span></p>
+                <div style="color: var(--text-muted); margin-top: 0.5rem;">
+                    Confidence Score: <span id="scoreVal"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 4rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+        <div style="padding: 1.5rem; background: var(--card-bg); border-radius: 1rem; border: 1px solid var(--card-border);">
+            <div style="color: var(--primary); margin-bottom: 0.5rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h4>ML.NET Powered</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Built using state-of-the-art Binary Classification models for high accuracy.</p>
+        </div>
+        <div style="padding: 1.5rem; background: var(--card-bg); border-radius: 1rem; border: 1px solid var(--card-border);">
+            <div style="color: var(--secondary); margin-bottom: 0.5rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            </div>
+            <h4>Real-time Analysis</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Instant processing of email headers and body content to detect malicious patterns.</p>
+        </div>
+        <div style="padding: 1.5rem; background: var(--card-bg); border-radius: 1rem; border: 1px solid var(--card-border);">
+            <div style="color: #fbbf24; margin-bottom: 0.5rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3y-3.5"></path></svg>
+            </div>
+            <h4>Secure & Private</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Local processing ensures your email data never leaves the system environment.</p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('analyzeBtn').addEventListener('click', async function() {
+            const message = document.getElementById('emailInput').value;
+            if (!message) return;
+
+            const btn = this;
+            const loading = document.getElementById('loading');
+            const resultSection = document.getElementById('resultSection');
+
+            btn.disabled = true;
+            loading.style.display = 'block';
+            resultSection.style.display = 'none';
+
+            try {
+                const response = await fetch('/Home/Analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: `message=${encodeURIComponent(message)}`
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    const isSpam = data.isSpam;
+                    const prob = (data.probability * 100).toFixed(1);
+                    
+                    const badge = document.getElementById('badge');
+                    const fill = document.getElementById('probFill');
+                    const text = document.getElementById('probText');
+                    const verdict = document.getElementById('verdictDetail');
+                    const score = document.getElementById('scoreVal');
+
+                    badge.className = isSpam ? 'result-badge badge-spam' : 'result-badge badge-ham';
+                    badge.innerText = isSpam ? 'Spam Detected' : 'Safe Content';
+                    
+                    fill.style.width = `${prob}%`;
+                    fill.style.background = isSpam ? '#ef4444' : '#22c55e';
+                    
+                    text.innerText = `${prob}%`;
+                    score.innerText = data.score.toFixed(4);
+                    
+                    verdict.innerText = isSpam 
+                        ? 'This message contains patterns typical of spam or phishing attempts. Exercise caution.'
+                        : 'This message appears to be legitimate and safe to read.';
+
+                    resultSection.style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            } finally {
+                btn.disabled = false;
+                loading.style.display = 'none';
+            }
+        });
+    </script>
+}
